@@ -1,2 +1,3 @@
 # ADMM_MAS
-this code is to test ADMM for OPF
+I am trying to test ADMM for OPF in python. 
+New to python... 

@@ -22,4 +22,7 @@ class NodeAgent(object):
         return "|------> Agent id: %s, type: %1s, power: %8.2f, value: %8.2f"% (
             self.id, self.type, self.P, self.value) + "\n"
 
-c
+'''
+            This is the printing function of the object Agent, printed if cfg.print_agents = True
+            - Return: string message
+        '''

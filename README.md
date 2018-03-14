@@ -1,2 +1,2 @@
 # ADMM_MAS
-testing ADMM
+this code is to test ADMM for OPF

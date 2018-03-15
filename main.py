@@ -10,8 +10,7 @@ print('node = '+str(Node))
 
 allagents = []
 for n in range(Node):
-    tagent = NodeAgent('N'+str(1), 'node', dt.gencost.item((n,4)), dt.gencost.item((n,5)), dt.gen.item((n,8)), 2.0, 0.0, 0.0)
+    tagent = NodeAgent('N'+str(1), n, dt.gencost.item((n,4)), dt.gencost.item((n,5)), dt.gen.item((n,8)), 2.0, 0.0, 0.0)
     allagents.append(tagent)
 
 
-print allagents[0].a
